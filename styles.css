@@ -409,3 +409,24 @@ footer > div > div > p{
   }
 }
 
+
+@media screen and (max-width: 600px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: none;
+    font-size: xx-small;
+    padding-left: 1.5rem;
+  }
+  .banner-title{
+    color: whitesmoke;
+    margin-right: -15px;
+    margin-left: -65px;
+  }
+
+.banner-btn{
+  color: whitesmoke;
+}
+
+}
