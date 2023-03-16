@@ -104,6 +104,10 @@ body {
     background: transparent;
     color: var(--primaryColor);
   }
+
+  a{
+    text-decoration: none;
+  }
 /* --------------- End of Hero ---------------- */
 
 /* --------------- Products ---------------- */
