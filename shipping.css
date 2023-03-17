@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 100px auto;
+    padding: 50px;
+    font-family: jost;
+    font-size: 14.5px;    
+    }
+    
+    @font-face{
+        font-family: jost;
+        src: url("fonts/jost/Jost-VariableFont_wght.ttf");
+    }
+
+form{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.right{
+    width: 100%;
+    margin-right: 20px;
+}
+
+.top > input{
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
+    width: 600px;
+    padding: 20px;
+    display: block;
+}
+
+.middle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.middle > input{
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
+    width: 600px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.bottom > input{
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
+    width: 600px;
+    padding: 50px 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+button{
+    background-color: #f76b6a;
+    color: #fff;
+    border-color: #f76b6a;
+    padding: 10px 30px;
+}
+footer > a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.right{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 40px;
+    width: 100%;
+}
+
+span{
+    margin-left: 65%;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.location{
+    display: flex;
+}
+
+.phone{
+    padding: 15px;
+    width: 100%;
+}
