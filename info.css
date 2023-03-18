@@ -102,3 +102,11 @@ a:hover{
     text-decoration: none;
     color: #f76b6a;
 }
+
+/* Responsivenes */
+
+@media only screen and (max-width:991.99px){
+    .foot{
+        gap: 60px;
+    }
+}
