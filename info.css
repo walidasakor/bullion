@@ -109,4 +109,13 @@ a:hover{
     .foot{
         gap: 60px;
     }
+    
+}
+
+@media only screen and (max-width: 767.99px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
