@@ -84,6 +84,11 @@ hr{
     width: 100%;
 }
 
+#items-total{
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+
 #info-price{
     display: flex;
     gap: 16px;
