@@ -113,12 +113,19 @@ body {
 /* --------------- Products ---------------- */
 
 .products {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .section-title h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 5rem;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+ h5 {
+  text-align: center;
+  font-size: 2.0rem;
+  margin-bottom: 3rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
@@ -182,7 +189,22 @@ body {
   color: var(--primaryColor);
   text-align: center;
 }
+.categories{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
 
+.categories > a{
+  color: #000;
+  background-color: transparent;
+  text-decoration: none;
+}
+.categories > a:hover{
+  color: red;
+  background-color: transparent;
+  text-decoration: underline
+}
 /* ---------------End of Products ---------------- */
 
 /* --------------- Cart ---------------- */

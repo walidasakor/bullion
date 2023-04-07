@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "2021 1 oz Canadian Gold Maple Leaf Coin (BU)",
+          "price": 1945.23,
+          "image": { "fields": { "file": { "url": "buyimages/gold/2021-1-oz-canadian-gold-maple_obv-1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "2022 1 oz Canadian Gold Prospecting for Gold Coin",
+          "price": 1964.28,
+          "image": { "fields": { "file": { "url": "buyimages/page2/coin three.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "1 oz South African Gold Krugerrand Coin (Random Year)",
+          "price": 1979.36,
+          "image": { "fields": { "file": { "url": "buyimages/SA KRUGERAND.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "2022 1 oz American Gold Buffalo Coin (BU)",
+          "price": 1930.71,
+          "image": { "fields": { "file": { "url": "buyimages/liberty.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "1 oz PAMP Suisse Fortuna Veriscan Gold Bar (New w/ Assay)",
+          "price": 2006.23,
+          "image": { "fields": { "file": { "url": "buyimages/pamp-suisse-1-oz-gold-bar-front.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "1 Kilo Perth Mint Cast Gold Bar",
+          "price": 62048.04,
+          "image": { "fields": { "file": { "url": "buyimages/gold/1-Kilo-Perth-Mint-Cast-Gold-Bar_1.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "1967 $20 Canadian Confederation Gold Coin (Varied Condition)",
+          "price": 1020.59,
+          "image": { "fields": { "file": { "url": "buyimages/gold/1967-20-Canadian-Confederation-Gold-Coin_obv.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "2020-W 1 oz V75 Privy Proof American Gold Eagle Coins",
+          "price": 13317.44,
+          "image": { "fields": { "file": { "url": "buyimages/page2/coin four.jpg" } } }
+        }
+      }
+    ]
+  }
+  
