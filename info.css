@@ -108,6 +108,10 @@ a:hover{
     color: #f76b6a;
 }
 
+#parentElement{
+    cursor: pointer;
+}
+
 /* Responsivenes */
 
 @media only screen and (max-width:991.99px){
