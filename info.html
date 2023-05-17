@@ -302,7 +302,19 @@
             </div>
             <div>
                 <hr>
-                <p>Have a coupon?</p>
+                <!-- <a href="authentication.html"><p>Have a coupon?</p></a> -->
+                <div>
+                    <p id="parentElement">Have a coupon?</p>
+                    <div id="myInput">
+                        <form class="auth-form">
+                            <input type="text" placeholder="Enter your unique code to proceed:" maxlength="8" class="auth-input">
+                            <button type="submit" class="auth-submit">Apply</button>
+                        </form>
+                        <p class="auth-error"></p>
+                    </div>
+                    
+                </div>
+                
                 <hr>
 
                 <div>Subtotal: </div> <span id="subtotal"></span>
@@ -314,6 +326,7 @@
             </div>
         </section>
     </main>
+    <script src="info.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
