@@ -16,6 +16,8 @@ parentElement.addEventListener('click', function() {
 const authForm = document.querySelector('.auth-form');
 const authInput = document.querySelector('.auth-input');
 const authError = document.querySelector('.auth-error');
+const cartTotal = document.querySelector('.cart-total')
+
 
 authForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -24,6 +26,8 @@ authForm.addEventListener('submit', (e) => {
     // if code is valid, redirect to different webpage
     // window.location.href = 'shipping.html';
     document.querySelector(".auth-error").innerHTML = "In Stock"
+  }else if(cartTotal <= ''){
+    document.querySelector(".auth-error").innerHTML = "No item selected"
   } else {
     // if code is invalid, display error message
     authError.textContent = 'Invalid code.';

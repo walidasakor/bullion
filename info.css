@@ -21,6 +21,9 @@ body{
     margin-top: 10px;
     width: 100%;
     padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+
 }
 
 .name{
@@ -29,8 +32,10 @@ body{
 }
 
 .first{
-    width: 100%;
-    padding: 15px;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
+    width: 23em;
+    padding: 20px;
 }
 
 .foot{
@@ -110,6 +115,22 @@ a:hover{
 
 #parentElement{
     cursor: pointer;
+}
+
+.auth-submit{
+    border-radius: 8px;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+}
+
+.auth-input{
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+}
+
+#continue-btn{
+    border-radius: 8px;
+    border: 1px solid rgba(19, 17, 17, 0.192);
 }
 
 /* Responsivenes */
